@@ -14,7 +14,7 @@ module.exports = {
     rules: [
       // Sassファイルの読み込みとコンパイル
       {
-        test: /\.scss/, // 対象となるファイルの拡張子
+        test: /\.(scss|css|sass)$/, // 対象となるファイルの拡張子
         // ローダー名
         use: [
           // linkタグに出力する機能
